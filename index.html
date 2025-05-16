@@ -41,7 +41,8 @@
                                 <label for="exampleFormControlInput1" class="form-label"><strong>Amount</strong></label>
                                 <div class="input-group">
                                     <span class="input-group-text">$</span>
-                                    <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)" placeholder="Amount">
+                                    <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)"
+                                        placeholder="Amount">
                                 </div>
                             </div>
                         </div>
@@ -65,7 +66,14 @@
                             <div class="col-3">
                                 <label for="exampleFormControlInput1" class="form-label"><strong>State</strong></label>
                                 <div class="input-group">
-                                    <input type="number" class="form-control" placeholder="Pick a State">
+
+                                    <select class="form-select" id="state">
+                                        <option value="">Pick a state</option>
+                                        <option value="Madrid">Madrid</option>
+                                        <option value="Barcelona">Barcelona</option>
+                                        <option value="Valencia">Valencia</option>
+                                    </select>
+                                  
                                 </div>
                             </div>
                             <div class="col-3">
@@ -79,20 +87,23 @@
                                 <label for="exampleFormControlInput1" class="form-label"><strong>We
                                         accept:</strong></label>
                                 <div class="form-control bg-secondary d-flex justify-content-center">
-                                    <input class="form-check-input me-1" type="radio" name="radioDefault" id="radioDefault2"
-                                        checked>
+                                    <input class="form-check-input me-1" type="radio" name="radioDefault"
+                                        id="radioDefault2" checked>
                                     <label class="form-check-label me-4" for="radioDefault2">
                                         <i class="fa-brands fa-cc-mastercard" style="color: #ffffff;"></i>
                                     </label>
-                                    <input class="form-check-input me-1" type="radio" name="radioDefault" id="radioDefault2">
+                                    <input class="form-check-input me-1" type="radio" name="radioDefault"
+                                        id="radioDefault2">
                                     <label class="form-check-label me-4" for="radioDefault2">
                                         <i class="fa-brands fa-cc-visa" style="color: #ffffff;"></i>
                                     </label>
-                                    <input class="form-check-input me-1" type="radio" name="radioDefault" id="radioDefault2">
+                                    <input class="form-check-input me-1" type="radio" name="radioDefault"
+                                        id="radioDefault2">
                                     <label class="form-check-label me-4" for="radioDefault2">
                                         <i class="fa-brands fa-cc-diners-club" style="color: #ffffff;"></i>
                                     </label>
-                                    <input class="form-check-input me-1" type="radio" name="radioDefault" id="radioDefault2">
+                                    <input class="form-check-input me-1" type="radio" name="radioDefault"
+                                        id="radioDefault2">
                                     <label class="form-check-label me-4" for="radioDefault2">
                                         <i class="fa-brands fa-cc-paypal" style="color: #ffffff;"></i>
                                     </label>
@@ -101,7 +112,8 @@
                             </div>
                             <div class="col-6">
                                 <div class="mb-3">
-                                    <label for="exampleFormControlTextarea1" class="form-label"><strong>Message</strong></label>
+                                    <label for="exampleFormControlTextarea1"
+                                        class="form-label"><strong>Message</strong></label>
                                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                                     <small class="text-muted mt-2">Add any notes here.</small>
 
